@@ -1,0 +1,10 @@
+version: '3.8'
+name: superheroes-page
+
+services:
+  superheroes_page:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "443:443"

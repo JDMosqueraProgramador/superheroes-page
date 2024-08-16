@@ -1,0 +1,1 @@
+comment'] = 'Mi superheroe favorito es IRON MAN'; console.log(comment); const lost = {}; lost['0

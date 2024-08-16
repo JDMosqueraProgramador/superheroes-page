@@ -106,12 +106,22 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="comment-form py-5">
+                    <h3 class="row text-center m-auto d-block">Comenta, ¿Cúal es tu súperheroe favorito?</h3>
+                    <form class="row row-column my-2 gap-4" method="post" id="comment-form">
+                        <input type="text" name="name" id="name" placeholder="Escribe tu nombre" class="card p-2">
+                        <textarea name="comment" id="comment" placeholder="Escribe tu comentario" class="p-4 card" rows="5"></textarea>
+                        <button class="btn btn-primary">Guardar Comentario</button>
+                    </form>
+
+                    <div class="comments" id="comments-list"></div>
+                </div>
             </div>
             <div class="col-6 right-img">
                 <img src="assets/images/captain-america.png" alt="">
             </div>
         </div>
-
     </section>
 
     <div class="modal fade" id="batmanInfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -163,6 +173,8 @@
         </div>
     </div>
 
+    <script src="assets/js/comments.service.js"></script>
+    <script src="assets/js/scroll.js"></script>
     <script src="assets/js/index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
